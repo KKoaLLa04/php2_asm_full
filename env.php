@@ -1,6 +1,6 @@
 <?php
 
-const BASE_URL = 'http://localhost/php2/b10/';
+const BASE_URL = 'http://localhost/php2_asm_full/';
 
 const _HOST = '127.0.0.1';
 const _DB = 'php2_lesson3';

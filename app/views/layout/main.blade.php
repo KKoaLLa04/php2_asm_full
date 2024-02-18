@@ -17,6 +17,7 @@
             <ul class="menu">
                 <li><a href="{{BASE_URL.'/list-cate'}}">Quản lý danh mục</a></li>
                 <li><a href="{{BASE_URL.'/list-product'}}">Quản lý sản phẩm</a></li>
+                <li><a href="{{BASE_URL.'/list-user'}}">Quản lý người dùng</a></li>
             </ul>
         </div>
     </header>

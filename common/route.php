@@ -36,6 +36,13 @@ $router->post('post-cate', [App\Controllers\CategoryController::class, 'postCate
 $router->get('edit-cate/{id}', [App\Controllers\CategoryController::class, 'editCate']);
 $router->post('edit-cate/{id}', [App\Controllers\CategoryController::class, 'editPostCate']);
 $router->get('delete-cate/{id}', [App\Controllers\CategoryController::class, 'deleteCate']);
+
+$router->get('list-user', [App\Controllers\UserController::class, 'index']);
+$router->get('add-user', [App\Controllers\UserController::class, 'addUser']);
+$router->post('post-user', [App\Controllers\UserController::class, 'postUser']);
+$router->get('edit-user/{id}', [App\Controllers\UserController::class, 'editUser']);
+$router->post('edit-postuser/{id}', [App\Controllers\UserController::class, 'editPostUser']);
+
 // khu vực cần quan tâm -----------
 //$router->get('test', [App\Controllers\ProductController::class, 'index']);
 
